@@ -1,0 +1,18 @@
+<H2>
+    Custom Pipe and Standard Pipe Application
+</H2>
+
+<H2>-----------Standard Pipe--------------</H2>
+
+ <H2>Original Title to Uppercase is {{course.title}}</H2>
+ <H2>Converted Title is  {{course.title | uppercase}}</H2>
+ <H2>Original Currency From USD to INR  is {{course.price_currency}} </H2>
+ <H2>Converted currency is {{course.price_currency | currency:'INR':true}}</H2>
+ <H2>Current Date in format is {{course.current_date}} </H2>
+ <H2>Proper format date is  {{course.current_date | date}} </H2>
+ <H2>Value of rating is {{course.rating}}</H2>
+ <H2>Formated rating is {{course.rating | number: '1.2-2' }}</H2>
+
+
+
+ <H2> {{paragraphSummary | summary}} </H2>

@@ -1,0 +1,13 @@
+<H2>
+{{ "Derived Graph Formula Name is : " +getDerivedGraphFormula()}}
+</H2>
+<H2>
+    List of Vector Inside this Formula are listed below :-
+</H2>
+<ul>
+    <li  *ngFor="let vector of vectorNames">
+       <h2> {{vector}}</h2>
+    </li>
+</ul>
+<app-derived-property></app-derived-property>
+
